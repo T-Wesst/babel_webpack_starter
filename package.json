@@ -10,9 +10,9 @@
   "author": "Tyroo West",
   "license": "MIT",
   "devDependencies": {
-    "babel-core": "^6.26.3",
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
     "babel-loader": "^8.0.5",
-    "babel-preset-env": "^1.7.0",
     "webpack": "^4.29.6",
     "webpack-cli": "^3.2.3",
     "webpack-dev-server": "^3.2.1"
