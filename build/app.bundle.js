@@ -92,5 +92,7 @@ var test = function test() {
   return console.log(123);
 };
 
+test();
+
 /***/ })
 /******/ ]);
