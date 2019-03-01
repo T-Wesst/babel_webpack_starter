@@ -6,7 +6,7 @@ module.exports = {
   mode: 'none',
   // Entry point for es6 and es7 and beyond files
   entry: {
-    app: './src/app.js'
+    app: ['babel-polyfill', './src/app.js']
   },
   // compiled es6 and es7 and beyond javascript into es5
   output: {
