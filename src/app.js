@@ -1,2 +1,2 @@
-let test = () => console.log('hello');
-test();
+import { person } from './lib';
+alert(person.name);
