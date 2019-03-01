@@ -1,2 +1,3 @@
-import { person } from './lib';
-alert(person.name);
+import { person, sayHello } from './lib';
+console.timeLog(person.name);
+console.log(sayHello('Tyroo'));
